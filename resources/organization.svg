@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Organization</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14,17.9999234 C14.9094327,17.999881 15.9074798,17.9999066 16.9941413,18 C16.9975099,18 16.9994628,13.9980201 17,5.99406028 C17,5.99859302 13.6686196,6.00057293 7.00585866,6 C7.0024901,6 7.00053722,10.0019799 7,18.0059397 C7,18.0024243 9.00386403,18.0004443 13.0115921,18 L10,18 L10,16 L14,16 L14,17.9999234 Z M5,5.99406028 C5,4.8927712 5.89706013,4 7.00585866,4 L16.9941413,4 C18.1019465,4 19,4.89451376 19,5.99406028 L19,18.0059397 C19,19.1072288 18.1029399,20 16.9941413,20 L7.00585866,20 C5.89805351,20 5,19.1054862 5,18.0059397 L5,5.99406028 Z M9,8 L11,8 L11,10 L9,10 L9,8 Z M13,8 L15,8 L15,10 L13,10 L13,8 Z M9,12 L11,12 L11,14 L9,14 L9,12 Z M13,12 L15,12 L15,14 L13,14 L13,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Organization" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#8B8E8F" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="Dark" mask="url(#mask-2)" fill="#8B8E8F">
+            <rect x="0" y="0" width="24" height="24"></rect>
+            <rect id="Color" fill-rule="evenodd" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

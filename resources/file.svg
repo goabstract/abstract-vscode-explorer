@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>File</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.9999231,10 L14.0093689,10 C13.4519098,10 13,9.55664682 13,8.9906311 L13,7 L7.99904345,7 C7.99937356,7.00048498 7.99969241,10.3318654 8,16.9941413 C8,16.9962321 10.6638233,16.998185 15.9914698,17 C15.9949891,17 15.9978068,14.6666677 15.999923,10.0000031 Z M6,7.00585866 C6,5.89805351 6.88670635,5 7.99810135,5 L13.5922804,5 C13.8174577,5 14.1330872,5.13308716 14.2876701,5.28767014 L17.7123299,8.71232986 C17.8712057,8.87120569 18,9.17356873 18,9.40439725 L18,17.000385 C18,18.1047419 17.0980496,19 15.9914698,19 L8.0085302,19 C6.8992496,19 6,18.1029399 6,16.9941413 L6,7.00585866 Z" id="path-1"></path>
+    </defs>
+    <g id="File" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#8B8E8F" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="Dark" mask="url(#mask-2)" fill="#8B8E8F">
+            <rect x="0" y="0" width="24" height="24"></rect>
+            <rect id="Color" fill-rule="evenodd" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

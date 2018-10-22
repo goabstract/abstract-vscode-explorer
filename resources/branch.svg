@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Branch</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9,13 L14,13 L14,8.41421356 L12.7071068,9.70710678 C12.3165825,10.0976311 11.6834175,10.0976311 11.2928932,9.70710678 C10.9023689,9.31658249 10.9023689,8.68341751 11.2928932,8.29289322 L14.2928932,5.29289322 C14.6834175,4.90236893 15.3165825,4.90236893 15.7071068,5.29289322 L18.7071068,8.29289322 C19.0976311,8.68341751 19.0976311,9.31658249 18.7071068,9.70710678 C18.3165825,10.0976311 17.6834175,10.0976311 17.2928932,9.70710678 L16,8.41421356 L16,14 C16,14.5522847 15.5522847,15 15,15 L9,15 L9,18 C9,18.5522847 8.55228475,19 8,19 C7.44771525,19 7,18.5522847 7,18 L7,6 C7,5.44771525 7.44771525,5 8,5 C8.55228475,5 9,5.44771525 9,6 L9,13 Z" id="path-1"></path>
+    </defs>
+    <g id="Branch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#8B8E8F" xlink:href="#path-1"></use>
+        <g id="Dark" mask="url(#mask-2)" fill="#8B8E8F">
+            <rect x="0" y="0" width="24" height="24"></rect>
+            <rect id="Color" fill-rule="evenodd" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

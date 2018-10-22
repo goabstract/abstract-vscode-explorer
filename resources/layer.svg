@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Sketch/Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0.495388985 C0,0.221793203 0.215752602,0 0.495388985,0 L2.50461102,0 C2.7782068,0 3,0.215752602 3,0.495388985 L3,2.50461102 C3,2.7782068 2.7842474,3 2.50461102,3 L0.495388985,3 C0.221793203,3 0,2.7842474 0,2.50461102 L0,0.495388985 Z M11,0.495388985 C11,0.221793203 11.2157526,0 11.495389,0 L13.504611,0 C13.7782068,0 14,0.215752602 14,0.495388985 L14,2.50461102 C14,2.7782068 13.7842474,3 13.504611,3 L11.495389,3 C11.2217932,3 11,2.7842474 11,2.50461102 L11,0.495388985 Z M11,11.495389 C11,11.2217932 11.2157526,11 11.495389,11 L13.504611,11 C13.7782068,11 14,11.2157526 14,11.495389 L14,13.504611 C14,13.7782068 13.7842474,14 13.504611,14 L11.495389,14 C11.2217932,14 11,13.7842474 11,13.504611 L11,11.495389 Z M0,11.495389 C0,11.2217932 0.215752602,11 0.495388985,11 L2.50461102,11 C2.7782068,11 3,11.2157526 3,11.495389 L3,13.504611 C3,13.7782068 2.7842474,14 2.50461102,14 L0.495388985,14 C0.221793203,14 0,13.7842474 0,13.504611 L0,11.495389 Z" id="path-1"></path>
+        <path d="M2,0 L10,0 L10,1 L2,1 L2,0 Z M0,2 L1,2 L1,10 L0,10 L0,2 Z M11,2 L12,2 L12,10 L11,10 L11,2 Z M2,11 L10,11 L10,12 L2,12 L2,11 Z" id="path-3"></path>
+    </defs>
+    <g id="Sketch/Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(5.000000, 5.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#8B8E8F" xlink:href="#path-1"></use>
+            <g id="Dark" mask="url(#mask-2)" fill="#8B8E8F">
+                <g transform="translate(-5.000000, -5.000000)">
+                    <rect x="0" y="0" width="24" height="24"></rect>
+                    <rect id="Color" stroke="none" fill-rule="evenodd" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+        <g id="Group" opacity="0.5" transform="translate(6.000000, 6.000000)">
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="Dark" mask="url(#mask-4)" fill="#8B8E8F">
+                <g transform="translate(-6.000000, -6.000000)">
+                    <rect x="0" y="0" width="24" height="24"></rect>
+                    <rect id="Color" stroke="none" fill-rule="evenodd" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

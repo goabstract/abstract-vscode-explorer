@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Project/Solid</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6,14.000049 L6,9.99995103 C5.99667046,9.99998365 5.99333702,10 5.98999977,10 C5.43771502,10 4.98999977,9.55228475 4.98999977,9 C4.98999977,8.44771525 5.43771502,8 5.98999977,8 C5.99333702,8 5.99667046,8.00001635 6,8.00004897 L6,6 C6,5 7,4 8,4 C9,4 15,4 16,4 C17,4 18,5 18,6 C18,7 18,17 18,18 C18,19 17,20 16,20 C15,20 9,20 8,20 C7,20 6,19 6,18 L6,15.999951 C5.99667046,15.9999837 5.99333702,16 5.98999977,16 C5.43771502,16 4.98999977,15.5522847 4.98999977,15 C4.98999977,14.4477153 5.43771502,14 5.98999977,14 C5.99333702,14 5.99667046,14.0000163 6,14.000049 Z M9,7 L9,11 L15,11 L15,7 L9,7 Z" id="path-1"></path>
+    </defs>
+    <g id="Project/Solid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#8B8E8F" xlink:href="#path-1"></use>
+        <g id="Dark" mask="url(#mask-2)" fill="#8B8E8F">
+            <rect x="0" y="0" width="24" height="24"></rect>
+            <rect id="Color" fill-rule="evenodd" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>
