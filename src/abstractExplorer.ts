@@ -15,9 +15,9 @@ export class AbstractProvider implements vscode.TreeDataProvider<Entry> {
   abstractClient: any;
   extensionPath: string;
 
-  constructor(context: vscode.ExtensionContext, apiToken: string) {
+  constructor(context: vscode.ExtensionContext, accessToken: string) {
     this.abstractClient = Abstract.Client({
-      abstractToken: apiToken,
+      accessToken,
       transport: Abstract.TRANSPORTS.API
     });
     this.extensionPath = context.extensionPath;
@@ -89,14 +89,14 @@ export class AbstractProvider implements vscode.TreeDataProvider<Entry> {
         };
       });
     } else if (element.type === "project") {
-      const branches: Array<any> = (await this.abstractClient.branches.list(
+      const branches: Array<any> = await this.abstractClient.branches.list(
         {
           projectId: element.id
         },
         {
           filter: "active"
         }
-      )).data.branches;
+      );
 
       return branches.sort(nameSort).map(function(branch: any): Entry {
         return {
@@ -108,10 +108,10 @@ export class AbstractProvider implements vscode.TreeDataProvider<Entry> {
         };
       });
     } else if (element.type === "branch") {
-      const files: Array<any> = (await this.abstractClient.files.list({
+      const files: Array<any> = await this.abstractClient.files.list({
         projectId: element.obj.projectId,
         branchId: element.id
-      })).files;
+      });
       return files.sort(nameSort).map(function(file: any): Entry {
         return {
           uri: vscode.Uri.parse("abstract://file/" + file.id),
@@ -163,22 +163,26 @@ export class AbstractProvider implements vscode.TreeDataProvider<Entry> {
 }
 
 export class AbstractExplorer {
-  private abstractExplorer: vscode.TreeView<Entry>;
+         private abstractExplorer: vscode.TreeView<Entry>;
 
-  constructor(context: vscode.ExtensionContext, apiToken: string) {
-    const treeDataProvider = new AbstractProvider(context, apiToken);
-    this.abstractExplorer = vscode.window.createTreeView("abstractExplorer", {
-      treeDataProvider
-    });
+         constructor(context: vscode.ExtensionContext, accessToken: string) {
+           const treeDataProvider = new AbstractProvider(context, accessToken);
+           this.abstractExplorer = vscode.window.createTreeView(
+             "abstractExplorer",
+             {
+               treeDataProvider
+             }
+           );
 
-    // possible to do this?
-    vscode.commands.registerCommand("abstractExplorer.previewLayer", layer =>
-      this.previewLayer(layer)
-    );
-  }
+           // possible to do this?
+           vscode.commands.registerCommand(
+             "abstractExplorer.previewLayer",
+             layer => this.previewLayer(layer)
+           );
+         }
 
-  private previewLayer(layer: any) {
-    // TODO: download layer and show in editor. possible?
-    // vscode.window.showTextDocument(...)
-  }
-}
+         private previewLayer(layer: any) {
+           // TODO: download layer and show in editor. possible?
+           // vscode.window.showTextDocument(...)
+         }
+       }

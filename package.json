@@ -49,6 +49,6 @@
     "@types/mocha": "^2.2.42"
   },
   "dependencies": {
-    "abstract-sdk": "^0.2.6"
+    "abstract-sdk": "0.3.1"
   }
 }
