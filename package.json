@@ -15,7 +15,36 @@
   ],
   "main": "./out/extension",
   "contributes": {
-    "commands": [],
+    "commands": [
+      {
+        "command": "abstractItem.openInWeb",
+        "title": "Open in Web"
+      },
+      {
+        "command": "abstractItem.openInApp",
+        "title": "Open in App"
+      },
+      {
+        "command": "abstractItem.viewDetails",
+        "title": "View Details"
+      }
+    ],
+    "menus": {
+      "view/item/context": [
+        {
+          "command": "abstractItem.openInWeb",
+          "when": "view == abstractExplorer"
+        },
+        {
+          "command": "abstractItem.openInApp",
+          "when": "view == abstractExplorer"
+        },
+        {
+          "command": "abstractItem.viewDetails",
+          "when": "view == abstractExplorer"
+        }
+      ]
+    },
     "viewsContainers": {
       "activitybar": [
         {
@@ -49,6 +78,7 @@
     "@types/mocha": "^2.2.42"
   },
   "dependencies": {
-    "abstract-sdk": "0.3.1"
+    "abstract-sdk": "0.3.1",
+    "json-pretty-html": "1.1.5"
   }
 }
